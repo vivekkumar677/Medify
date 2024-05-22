@@ -8,6 +8,7 @@ import Specialization from "../../components/Sections/Specialization/Specializat
 import Specialists from "../../components/Sections/Specialists/Specialists";
 import PatientCaring from "../../components/Sections/PatientCaring/PatientCaring";
 import Blogs from "../../components/Sections/Blogs/Blogs";
+import OurFamilies from "../../components/Sections/OurFamilies/OurFamilies";
 
 const LandingPage = () => {
 
@@ -45,6 +46,7 @@ const LandingPage = () => {
             <Specialists />
             <PatientCaring />
             <Blogs />
+            <OurFamilies />
         </Box>
     )
 };
