@@ -1,6 +1,8 @@
-import { Box, Container } from "@mui/material";
+import { Box, Container, Stack } from "@mui/material";
 import Navbar from '../../components/NavBar/Navbar';
 import HeroSlider from "../../components/HeroSlider/HeroSlider";
+import SearchHospital from "../../components/SearchHospital/SearchHospital";
+import HeroServices from "../../components/IconLayout/HeroServices";
 
 const LandingPage = () => {
 
@@ -18,7 +20,19 @@ const LandingPage = () => {
                     <Container maxWidth="xl">
                         <HeroSlider />
                     </Container>
-                    
+                    <Stack
+                        p={{ xs: 2.5, md: 8 }}
+                        mt={{ xs: -2, md: 0, lg: -6, xl: -10}}
+                        position="relative"
+                        zIndex={99}
+                        bgcolor="#fff"
+                        borderRadius="15px"
+                        spacing={10}
+                        boxShadow="0px 0px 12px rgba(0,0,0, 0.1)"
+                    >
+                        <SearchHospital />
+                        <HeroServices />
+                    </Stack>
                 </Box>
         </Box>
     )
