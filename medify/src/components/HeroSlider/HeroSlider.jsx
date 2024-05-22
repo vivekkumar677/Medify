@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Button, Stack, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import img from "../../assets/home.webp";
+import titik from '../../assets/titik.png';
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 

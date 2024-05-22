@@ -5,6 +5,7 @@ import SearchHospital from "../../components/SearchHospital/SearchHospital";
 import HeroServices from "../../components/IconLayout/HeroServices";
 import Offers from "../../components/Sections/Offers/Offers";
 import Specialization from "../../components/Sections/Specialization/Specialization";
+import Specialists from "../../components/Sections/Specialists/Specialists";
 
 const LandingPage = () => {
 
@@ -39,6 +40,7 @@ const LandingPage = () => {
                 </Box>
             <Offers />
             <Specialization />
+            <Specialists />
         </Box>
     )
 };

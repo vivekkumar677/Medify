@@ -27,7 +27,7 @@ const SearchHospital = () => {
                 minWidth: 200, width: "100%"
             }}
         >
-            <MenuItem disabled value="" selected>
+            <MenuItem>
                 State
             </MenuItem>
         </Select>
