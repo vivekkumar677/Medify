@@ -6,6 +6,7 @@ import HeroServices from "../../components/IconLayout/HeroServices";
 import Offers from "../../components/Sections/Offers/Offers";
 import Specialization from "../../components/Sections/Specialization/Specialization";
 import Specialists from "../../components/Sections/Specialists/Specialists";
+import PatientCaring from "../../components/Sections/PatientCaring/PatientCaring";
 
 const LandingPage = () => {
 
@@ -41,6 +42,7 @@ const LandingPage = () => {
             <Offers />
             <Specialization />
             <Specialists />
+            <PatientCaring />
         </Box>
     )
 };
