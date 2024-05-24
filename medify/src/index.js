@@ -5,6 +5,8 @@ import App from './App';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material';
 import LandingPage from './Pages/LandingPage/LandingPage';
+import SearchResultPage from './Pages/SearchResultPage/SearchResultPage';
+import MyBookings from './Pages/MyBookingsPage/MyBookingsPage';
 
 const router = createBrowserRouter([
   {
@@ -13,9 +15,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "search",
+        element: <SearchResultPage />,
       },
       {
         path: "my-bookings",
+        element: <MyBookings />
       },
       {
         path: "/",

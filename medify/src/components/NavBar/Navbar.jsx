@@ -52,7 +52,7 @@ const Navbar = () => {
               <Link>Surgeries</Link>
               <Link>Software for Provider</Link>
               <Link>Facilities</Link>
-              <Link to="/my-bookingss">
+              <Link to="/my-bookings">
                 <Button variant="contained" borderRadius="10px" disableElevation>
                   My Bookings
                 </Button>

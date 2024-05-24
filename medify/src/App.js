@@ -1,10 +1,17 @@
 
-import './App.css';
-import LandingPage from './Pages/LandingPage/LandingPage';
+import { CssBaseline } from '@mui/material';
+import { Outlet } from 'react-router-dom';
+import DownloadApp from './components/Sections/DownloadApp/DownloadApp';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <LandingPage />
+    <div>
+      <CssBaseline />
+      <Outlet />
+      <DownloadApp />
+      <Footer />
+    </div>
   );
 }
 
