@@ -11,6 +11,7 @@ import Blogs from "../../components/Sections/Blogs/Blogs";
 import OurFamilies from "../../components/Sections/OurFamilies/OurFamilies";
 import FAQs from "../../components/Sections/FAQs/Faqs";
 import DownloadApp from "../../components/Sections/DownloadApp/DownloadApp";
+import Footer from "../../components/Footer/Footer";
 
 const LandingPage = () => {
 
@@ -51,6 +52,7 @@ const LandingPage = () => {
             <OurFamilies />
             <FAQs />
             <DownloadApp />
+            <Footer />
         </Box>
     )
 };

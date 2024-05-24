@@ -39,7 +39,6 @@ const DownloadApp = () => {
                                         background: "#333",
                                         color: '#fff',
                                         py: 1.5,
-                                        borderRadius: 1.5,
                                         }}
                                         size={'large'}
                                         startIcon={<img src={playstore} height={24} />}
